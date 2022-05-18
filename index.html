@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A small weather app using API">
+    <meta name="keywords" content="weather, app, api">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <section class="firstSection">
+            <div class="container">
+                <h1 class="heading">Weather in Runeterra</h1>
+                
+                    <input type="text" placeholder="Choose a region" autofocus>
+                    <button type="submit">SUBMIT</button>
+                    <br>
+                    <br>
+                    <span class="msg"></span>
+                    <img src="img/map.png" alt="Map of Runeterra" usemap="#runeterra">
+                    <map name="runeterra">
+            
+                        <area onclick="freljord()" shape="circle" coords="160, 50, 30" alt="Freljord" href="computer.htm">
+                        <area onclick="demacia()" shape="circle" coords="120, 170, 30" alt="Demacia" href="computer.htm">
+                        <area onclick="noxus()" shape="circle" coords="370, 110, 30" alt="Noxus" href="computer.htm">
+                        <area onclick="ionia()" shape="circle" coords="700, 75, 30" alt="Ionia" href="computer.htm">
+                        <area onclick="piltoZaun()" shape="circle" coords="500, 274, 30" alt="Piltover & Zaun" href="computer.htm">
+                        <area onclick="bilgewater()" shape="circle" coords="710, 330, 30" alt="Bilgewater" href="computer.htm">
+                        <area onclick="shadowIsles()" shape="circle" coords="800, 450, 30" alt="Shadow Isles" href="computer.htm">
+                        <area onclick="ixtal()" shape="circle" coords="550, 420, 30" alt="Ixtal" href="computer.htm">
+                        <area onclick="shurima()" shape="circle" coords="410, 430, 30" alt="Shurima" href="computer.htm">
+                        <area onclick="targon()" shape="circle" coords="230, 440, 30" alt="Targon" href="computer.htm">
+                      </map>
+            </div>
+        </section>
+        <section class="apiSection">
+            <div class="container">
+              <ul class="cities"></ul>
+            </div>
+          </section>
+    </main>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

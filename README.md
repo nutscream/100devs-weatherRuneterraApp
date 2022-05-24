@@ -8,7 +8,7 @@
     
   **Tech used:** HTML, CSS, JavaScript
     
-  As I was playing and learning more about APIs, I decided to build a weather app widget using the free OpenWeather API. As soon as I finished this project, I decided to assign one city to each regions of Runeterra. For example, Noxus is assigned to Moscow, so you are asking the weather of Noxus, you actualy get the one from Moscow. Nothing complicated. I just feld I had to personalize this project a bit.
+  As I was playing and learning more about APIs, I decided to build a weather app widget using the free OpenWeather API. As soon as I finished this project, I decided to assign one city to each regions of Runeterra. For example, Noxus is assigned to Moscow, so you if are asking the weather of Noxus, you actualy get the one from Moscow. Nothing complicated. I just felt I had to personalize this project a bit.
   I decided to add a map of Runeterra and use the map/area tags in HTML. In combinasion with the onclick tag element, I was able to add click events directly to the map.
 
 - ## Optimizations:

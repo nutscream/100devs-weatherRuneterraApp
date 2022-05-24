@@ -13,7 +13,7 @@
 
 - ## Optimizations:
   
-  If I had more time to work on it I would use some sound of rain/snow when needed, to match the current weather of the city. I would rework the UI to make match the League of Legends universe, and also add the images of the different regions in the weather section. I would also refactor my code and find a way to not repeat 10 times the exact same function.
+  If I had more time to work on it I would use some sound of rain/snow when needed, to match the current weather of the city. I would rework the UI to make it match the League of Legends universe, and also add the images of the different regions in the weather section. I would also refactor my code and find a way to not repeat 10 times the exact same function.
 
 - ## Lessons Learned:
     
